@@ -68,7 +68,7 @@ app.get ('/', (req,res)=>{
     console.log(req.query)
   
     //console.log(req.query)
-//Vedo i query parameters nel terminale qualora se ad esempio '/?firstname= luca&lastname=derenzo' li abbia
+//Vedo i query parameters nel terminale qualora se ad esempio '/?firstname=luca&lastname=derenzo' li abbia
 //digitati nel browser ma devo inserire console.log(req.query)
       return res.send (`
         <h1>Ciao Luca</h1>
